@@ -1,0 +1,26 @@
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  min-width: 3rem;
+  border-radius: var(--border-radius-circle);
+  --webkit-shape-outside: circle(50% at 50% 50%);
+  shape-outside: circle(50% at 50% 50%);
+  --webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
+.avatar--comment {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-top: 2px solid var(--color-green);
+  border-bottom: 2px solid var(--color-green);
+  border-left: 2px solid var(--color-white);
+  border-right: 2px solid var(--color-white);
+  padding: 3px;
+  box-sizing: content-box;
+}
+
+.avatar--comment img {
+  border-radius: 50%;
+}

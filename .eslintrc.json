@@ -1,0 +1,13 @@
+{
+  // "parser": "@babel/eslint-parser",
+  "extends": ["next", "next/core-web-vitals"]
+}
+
+// {
+//   "parser": "@babel/eslint-parser",
+//   "extends": ["plugin:react/recommended", "next/core-web-vitals"]
+// }
+
+// {
+//   "parser": "babel-eslint"
+// }

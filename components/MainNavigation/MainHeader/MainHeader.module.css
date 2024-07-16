@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&family=Gideon+Roman&family=Playfair+Display&family=Source+Sans+Pro:wght@800&display=swap');
+
+.header {
+  background: var(--bg-header);
+  display: flex;
+  flex-direction: column;
+}
+
+.header nav {
+  display: flex;
+  padding: 1.4rem 0rem;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--color-black);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: var(--bg-header);
+}
+
+.header a {
+  color: var(--color-black);
+}
+
+.logo span {
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-family: 'Gideon';
+  text-align: center;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 35rem;
+  margin-left: 15%;
+  margin-top: 10rem;
+}
+
+.main h1 {
+  font-size: 8rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+.main p {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.btn--gs {
+  padding: 0.8rem 1rem;
+  border-radius: 10rem;
+  border: 1px solid transparent;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  cursor: pointer;
+  margin-top: 3rem;
+  width: 30%;
+  max-width: 21.3rem;
+  font-size: 1.8rem;
+}

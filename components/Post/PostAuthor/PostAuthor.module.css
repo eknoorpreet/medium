@@ -1,0 +1,25 @@
+.author {
+  padding: 0 1rem;
+}
+
+.profile-edit:hover {
+  background-color: rgba(91, 118, 144, 0.9);
+}
+
+.posts h6 {
+  margin-bottom: 1rem;
+  color: var(--color-black);
+  font-size: 1.6rem;
+}
+
+.posts .preview {
+  margin-bottom: 1.5rem;
+  justify-content: flex-start;
+}
+
+.posts .preview__title {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-left: 0.5rem;
+  color: var(--color-black);
+}

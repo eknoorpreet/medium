@@ -1,0 +1,39 @@
+.details {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+}
+
+.details h3 {
+  margin-top: 0;
+}
+
+.name {
+  color: var(--color-black);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.date {
+  color: var(--color-meta);
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.content .avatar {
+  width: 5rem;
+  height: 5rem;
+}
+
+.bio {
+  font-size: 1.3rem;
+  margin: 0;
+  width: 100%;
+}

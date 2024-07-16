@@ -1,0 +1,28 @@
+.post__body {
+  background: var(--color-white);
+}
+
+.post__author {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.post__heading {
+  font-size: 3.2rem;
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
+.post__text {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 2rem 0;
+  line-height: 1.8;
+}
+
+.post__intro {
+  color: var(--color-meta);
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.5rem;
+}

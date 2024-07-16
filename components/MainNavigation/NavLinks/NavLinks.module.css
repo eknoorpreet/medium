@@ -1,0 +1,38 @@
+.links {
+  display: flex;
+  gap: 5rem;
+  position: relative;
+}
+
+.btn--gs {
+  padding: 0.8rem;
+  border-radius: 10rem;
+  border: 1px solid transparent;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  cursor: pointer;
+  width: 15%;
+  min-width: 11rem;
+
+  max-width: 21.3rem;
+  font-size: 1.4rem;
+}
+
+.btn--si {
+  background-color: transparent;
+  border: 0;
+}
+
+@media (min-width: 1024px) {
+  .links {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .links {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}

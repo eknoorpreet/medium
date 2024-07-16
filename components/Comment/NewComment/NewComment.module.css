@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.container form {
+  gap: 1rem;
+}
+
+.container input {
+  background: var(--color-white);
+  flex-grow: 2;
+  border: none;
+  box-shadow: var(--box-shadow-2);
+  padding: 2rem;
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+.btn--comment {
+  padding: 1.2rem;
+  align-self: flex-start;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+.btn > * {
+  margin-right: 1rem;
+}
+
+.replies,
+.container-reply {
+  margin-left: 1rem;
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "_id": {
+      "$oid": "61e545322adb9329e259ddfa"
+    },
+    "read": true,
+    "notificationType": "comment",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "receiver": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "post": {
+      "$oid": "60fdf83e33de855ff74cd72e"
+    },
+    "comment": {
+      "$oid": "61e545312adb9329e259ddf2"
+    },
+    "body": "Hey! Gave you a notification!",
+    "date": {
+      "$date": "2022-01-17T10:30:10.691Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61e55fee49d7d52e35632b27"
+    },
+    "read": false,
+    "notificationType": "follow",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "receiver": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "date": {
+      "$date": "2022-01-17T12:24:14.456Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61e5600449d7d52e35632b32"
+    },
+    "read": false,
+    "notificationType": "clap",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "receiver": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "date": {
+      "$date": "2022-01-17T12:24:36.579Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61e5600e49d7d52e35632b3c"
+    },
+    "read": false,
+    "notificationType": "follow",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "receiver": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "date": {
+      "$date": "2022-01-17T12:24:46.349Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61e5602249d7d52e35632b48"
+    },
+    "read": false,
+    "notificationType": "clap",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "receiver": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "date": {
+      "$date": "2022-01-17T12:25:06.590Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61e5605049d7d52e35632b54"
+    },
+    "read": false,
+    "notificationType": "follow",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "date": {
+      "$date": "2022-01-17T12:25:52.029Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "61e607f0455ca22edf53a39f"
+    },
+    "read": true,
+    "notificationType": "like",
+    "sender": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "receiver": {
+      "$oid": "61c6e9ad127170d7a9020a2f"
+    },
+    "body": "61c6e9ad127170d7a9020a2f liked your post",
+    "post": {
+      "$oid": "61d8ce40f0d4e9c002944790"
+    },
+    "date": {
+      "$date": "2022-01-18T00:21:04.055Z"
+    },
+    "__v": 0
+  }
+]

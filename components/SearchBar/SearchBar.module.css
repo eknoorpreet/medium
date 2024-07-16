@@ -1,0 +1,11 @@
+.search {
+  margin: 2.5rem 0;
+}
+
+.search-bar {
+  background: var(--color-white);
+  border: 1px solid #ccc;
+  padding: 0.6rem 1.1rem;
+  border-radius: 10rem;
+  width: 100%;
+}

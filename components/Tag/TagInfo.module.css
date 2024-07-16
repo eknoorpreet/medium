@@ -1,0 +1,51 @@
+.avatars {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.tag-desktop {
+  display: none;
+}
+
+.tag-mobile {
+  padding: 1.8rem;
+}
+
+@media (min-width: 1024px) {
+  .tag-mobile {
+    display: none;
+  }
+
+  .tag-desktop {
+    display: block;
+  }
+}
+
+.tag__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag-mobile .tag__info {
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.tag__info h3 {
+  color: var(--color-black);
+  font-weight: 900;
+}
+
+.tag__info p {
+  font-size: 1.6rem;
+}
+
+.avatars > * {
+  margin-left: -1.5rem;
+}
+
+.container-tag .container {
+  max-width: 84rem;
+}
